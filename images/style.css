@@ -1,0 +1,79 @@
+/* Images */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000031;
+	color: white;
+	font-family: Ubuntu, serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 0.25em;
+	}
+
+
+img {
+	max-width: 100%;
+	}
+
+.item1 {
+  grid-area: 1/1/span 3/span 3; 
+	display: block;
+  }
+  
+  
+.item-title {
+ grid-area: 4 / 1 / span 1 / span 3;
+    }
+
+.side-item1{
+	grid-area: 'side-item';
+	display: block;
+		}
+
+.side-item2{
+	grid-area: 'side-item';
+	display: block;
+		}
+
+.side-item3{
+	grid-area: 'side-item';
+	display: block;
+		}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+  max-width: 750px;
+  margin: auto;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column: 4;
+	}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.main-header: {
+	position: absolute;
+	display: block;
+	margin: auto;
+	margin-left: 500px;
+	font-size:3em ;
+}
+
+.description{
+	font-size: 0.5em;
+}
+</style>
