@@ -1,0 +1,73 @@
+/* Interview */
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	text-align: center;
+	margin: 3em 5em 1em;
+}
+
+
+
+h1 {
+	font-family: 'Merriweather';
+    font-size: 2em;
+    display: inline-block;
+    border: 1px solid;
+    padding: 0.25em;
+    border-radius: 0.5em 0 0.25em;
+    background-color: #FFBC94;
+}
+
+body {
+	background-color: coral;
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 0.25em;
+}
+
+.q {
+	font-family: 'Merriweather', serif;
+	margin: 0 1em 1em 0;
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+.a {
+	font-family: 'Lato', sans-serif;
+	margin: 0 0 1em 1em;
+	font-size: 1.1em;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    min-width: 30em;
+    max-width: 50em;
+    grid-template-columns: 50% 50%;
+    background-color: #FFBC94;
+    padding: 2em 1em 1em 1em;
+    border:1px solid;
+    border-radius: 0 3em 0 3em;
+}
+
+h3 {
+	text-align: center;
+	margin: 2em;
+}
+
+.source {
+	font-family: 'Lato', sans-serif;
+	color: #380021;
+}
+a:hover {
+	color: #4A6FBA;
+
+}
+
